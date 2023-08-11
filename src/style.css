@@ -123,6 +123,7 @@ body {
 .main__numbers li:hover {
   color: var(--White);
   background-color: var(--Medium-Grey);
+  cursor: pointer;
 }
 
 .main__thanks {
@@ -157,4 +158,8 @@ body {
 }
 .main__hidden {
   display: none;
+}
+.main__focus {
+  color: var(--White);
+  background-color: var(--Orange);
 }
